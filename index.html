@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="MAVA-Design">
+    <meta name="description" content="Wil je jouw onderneming online professioneel en sterk presenteren? Je bent hier aan het juiste adres!">
+
+    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap-reboot.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="stijl/style.css">
+
+    <title>Mava-Design</title>
+
+    <script src="script.js"></script>
+</head>
+<body id="body">
+
+    <header class="p-1 m-0">
+        <div class="container">
+            <div class="row">
+                <p class="col-md-6 offset-md-3"><a href="#"><img src="afbeeldingen/logo.svg" alt="Mava-Design logo"></a></p>
+                <div class="col-12">
+                    <p id="dropdown" onclick="dropdown(true)" class="d-md-none pt-1">Menu <i class="fa-solid fa-bars ps-2"></i></p>   
+                </div>
+
+                <div id="nav-list" class="col-12 pt-md-0">
+                    <ul class="row p-0 m-0">
+                        <li class="col-12 pt-3 d-md-none"><p id="closeDropdown" onclick="dropdown(false)"><i class="fa-solid fa-xmark fa-2x"></i></p></li>
+                        <li class="col-md-6 col-lg-3 d-flex p-md-0 pb-3"><a class="col-12 p-2" href="#overMij" onclick="dropdown(false)">Over mij</a></li>
+                        <li class="col-md-6 col-lg-3 d-flex p-md-0 pb-3"><a class="col-12 p-2" href="#producten" onclick="dropdown(false)">Producten</a></li>
+                        <li class="col-md-6 col-lg-3 d-flex p-md-0 pb-3"><a class="col-12 p-2" href="#projecten" onclick="dropdown(false)">Projecten</a></li>
+                        <li class="col-md-6 col-lg-3 d-flex p-md-0 pb-5"><a class="col-12 p-2" href="#contact" onclick="dropdown(false)">Contact</a></li>
+                    </ul>
+
+                    <div id="nav-footer" class="row justify-content-center d-md-none mt-5">
+                        <p class="col-12"><a class="p-2" href="#insta" target="_blank" onclick="dropdown(false)"><i class="fa-brands fa-instagram"></i> Instagram</a></p>
+                        <p class="col-12"><a class="p-2" href="https://www.linkedin.com/in/mats-vanspringel/" target="_blank" onclick="dropdown(false)"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id="arrowWrap" class="row align-items-center justify-content-center d-none d-md-block m-0">
+        <p class="col-12">
+            <a href="#" id="arrowUp" class="p-2 transition"><i class="fa-solid fa-arrow-up"></i></a>
+        </p>
+    </div>
+
+    <div id="main" class="container">
+
+        <div id="overMij" class="row my-3 align-items-center">
+            <img class="col-md-6 col-lg-4 order-lg-2 order-2 order-md-1" src="afbeeldingen/overMij.jpg" alt="Foto Mats Vanspringel">
+        
+            <div class="col-md-6 col-lg-8 order-lg-1 order-1 order-md-2">
+                <h2 class="col-12 mt-3">Over mij</h2>
+                    
+                <p class="p-1">
+                    Ik ben <span class="accent">Mats Vanspringel</span>, student Toegepaste Informatica aan Thomas More Geel en de oprichter van MAVA-Design. Van jongs af aan ben ik gepassioneerd door technologie, design en het creëren van 
+                    unieke digitale ervaringen. MAVA-Design is ontstaan vanuit die passie en de wens om bedrijven en individuen te helpen hun online aanwezigheid naar een hoger niveau te tillen.
+                </p>
+                <p class="p-1">
+                    Bij MAVA-Design bieden we maatwerkoplossingen voor het ontwikkelen van <span class="accent">stijlvolle, functionele websites en professionele fotobewerkingen</span>. Of je nu een ondernemer bent die een frisse en 
+                    moderne website nodig heeft, of iemand die visuele content tot in de perfectie wil laten afwerken, wij staan voor je klaar.
+                </p>
+                <p class="p-1 d-none d-md-block">
+                    Met oog voor detail en een persoonlijke aanpak streven we naar resultaten die niet alleen visueel aantrekkelijk zijn, maar ook naadloos aansluiten bij jouw doelen en visie. 
+                    Samen zetten we jouw ideeën om in een krachtig digitaal verhaal..
+                </p>
+            </div>
+        </div>
+    </div>
+        
+    <div id="productWrap" class="p-lg-5">
+        <div class="container">
+            <div id="producten" class="row my-5">
+                <h2 class="col-12 my-3">Producten</h2>
+                <div class="product col-12 col-md-5 my-1">
+                    <img class="col-12 d-none d-xl-block" src="afbeeldingen/Webdesign.jpg" alt="Webdesign">
+                    <div class="col-12 flex-column justify-content-center mt-3 mt-md-0">
+                        <h3>Webdesign</h3>
+                        <p>
+                            Bij Mava Design leveren we op maat gemaakte websites die perfect aansluiten bij jouw wensen en de identiteit van jouw bedrijf. Onze designs draaien om gebruiksvriendelijkheid, 
+                            creativiteit en functionaliteit. 
+                        </p>
+                        <p>
+                            Of je nu een een zakelijke of informatieve website nodig hebt, wij vertalen jouw ideeën naar een modern en professioneel 
+                            online platform. We zorgen ervoor dat jouw website niet alleen goed werkt op alle apparaten, maar ook indruk maakt met een uniek ontwerp.
+                        </p>
+                    </div>
+                </div>
+                <div class="product col-12 col-md-5 my-1 offset-md-2">
+                    <img class="col-12 d-none d-xl-block" src="afbeeldingen/Fotobewerking.jpg" alt="Fotobewerking">
+                    <div class="col-12 flex-column justify-content-center mt-3 mt-md-0">
+                        <h3>Fotobewerking</h3>
+                        <p>
+                            Mava Design biedt hoogwaardige fotobewerkingsdiensten om jouw beelden tot leven te brengen. Met behulp van Adobe Photoshop passen we verschillende technieken toe, 
+                            zoals het verbeteren van kleuren, het verwijderen van oneffenheden, het inkleuren van zwart-witfoto’s en het aanpassen van belichting.
+                        </p>
+                        <p>
+                            Of je nu professionele foto’s nodig hebt voor 
+                            een project, of persoonlijke herinneringen wilt laten stralen, wij zorgen voor een perfect resultaat dat jouw verwachtingen overtreft.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container py-lg-5">
+        <div id="projecten" class="projecten row">
+            <h2 class="col-12 mb-5">Projecten</h2>
+
+            <a href="project.html" class="col-md-6 col-lg-3 p-1">
+                <div class="project p-3 transition" onclick="change_project('wnkl')">
+                    <img src="afbeeldingen/projecten/wnkl_logo.png" alt="WNKL">
+                    <h3>WNKL</h3>
+                </div> 
+            </a>                   
+        </div>
+    </div>
+        
+    <div id="contactWrap">
+        <div class="container">
+            <div id="contact" class="row py-5 align-items-center">
+                <div class="col-xl-5 d-none d-xl-block my-3">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2500.591503901025!2d5.230529476803681!3d51.189751571742846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c132ff1254b64d%3A0x2eeae6efdf25f70f!2sForcitestraat%2033_1%2C%202490%20Balen!5e0!3m2!1snl!2sbe!4v1733677751961!5m2!1snl!2sbe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+    
+                <div class="col-12 col-xl-5 offset-xl-2">
+                    <h2 class="mt-3">Contact</h2>
+                    <form action="" method="post">
+                        <label for="name" class="col-12">Naam:</label>
+                        <input type="text" class="col-12 p-1" required placeholder="Naam">
+                    
+                        <label for="email" class="col-12">Email:</label>
+                        <input type="email" class="col-12 p-1" required placeholder="voorbeeld@gmail.com">
+                    
+                        <label for="message" class="col-12">Bericht:</label>
+                        <textarea name="message" id="message" class="col-12 p-1" required placeholder="Bericht"></textarea>
+                    
+                        <button type="submit" class="col-4 primary-button offset-4 transition">Verstuur</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="row p-3 m-0">
+        <div class="container">
+            <p class="col-12 p-1 my-1">&copy; MAVA-Design</p>
+            <p class="col-12 p-0 m-0"><a class="p-2 transition" href="#insta"><i class="fa-brands fa-instagram"></i> Instagram</a> - <a class="p-2 transition" href="https://www.linkedin.com/in/mats-vanspringel/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a> - <a class="p-2 transition" href="privacy.html">Privacy&nbsp;voorwaarden</a></p>
+        </div>
+    </footer>
+    
+</body>
+</html>

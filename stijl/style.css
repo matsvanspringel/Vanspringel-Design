@@ -1,0 +1,229 @@
+html{
+    font-size: 14pt;
+    scroll-behavior: smooth;
+}
+
+::selection{
+    background-color: #8fa7af;
+    color: white;
+}
+
+body{
+    font-family: sans-serif;
+    z-index: 1;
+}
+
+header{
+    background-color: #8fa7af;
+}
+
+#nav-list{
+    display: none;
+    background-color: #345779;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    max-width: 60vw;
+    z-index: 2;
+}
+
+#nav-list li{
+    text-align: center;
+}
+
+#nav-footer{
+    text-align: center;
+}
+
+#nav-footer a:hover, #nav-footer a:active{
+    color: #fc9050;
+    text-decoration: unerline;
+}
+
+#dropdown{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+}
+
+#closeDropdown{
+    color: white;
+    text-align: right;
+}
+
+#arrowWrap{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+#arrowUp{
+    color: white;
+    background-color: rgba(0,0,0,.75);
+    border-radius: 5px;
+}
+
+#arrowUp:hover{
+    background-color: rgba(0,0,0,.5);
+}
+
+h1, h2, h3{
+    font-family: "Passion One", serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #345779;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+input, textarea{
+    border: none;
+    border-radius: 5px;
+    background-color: #8fa7af;
+    color: white;
+}
+
+textarea{
+    min-height: 150px;
+    max-height: 150px;
+}
+
+#mainWrap{
+    min-height: 100vh;
+}
+
+#productWrap, #contactWrap{
+    background-color: rgba(0,0,0,.15);
+}
+
+footer{
+    background-color: #000000;
+    color: white;
+}
+
+footer p{
+    font-size: .8rem;
+}
+
+footer p a{
+    color: #fc9050;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer p a:hover, footer p a:focus{
+    background-color: #fc9050;
+    color: white;
+}
+
+.product img, .product div, iframe{
+    border-radius: 5px;
+}
+
+.project{
+    text-align: center;
+    border-radius: 5px;
+}
+
+.project:hover{
+    cursor: pointer;
+    background-color: #ffc775;
+}
+
+.privacyList{
+    list-style-type: circle;
+}
+
+.primary-button{
+    background-color: #fc9050;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+}
+
+.primary-button:hover{
+    background-color: #ffc775;
+    color: white;
+}
+
+.accent{
+    color: #ffc775;
+    font-weight: bold;
+}
+
+#link{
+    color: #fc9050;
+    transition: 1s;
+}
+
+#link:hover{
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 768px){
+    #nav-list{
+        background-color: transparent;
+        display: block;
+        position: inherit;
+        right: inherit;
+        height: inherit;
+        max-width: inherit;
+    }
+
+    ul a{
+        background-color: #fc9050;
+    }
+    
+    ul a:hover, ul a:focus{
+        background-color: #ffc775;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .product{
+        position: relative;
+    }
+
+    .product h3{
+        color: white;
+    }
+
+    .product div{
+        position: absolute;
+        top: 0;
+        background-color: rgba(0,0,0,.5);
+        color: white;
+        height: 100%;
+        width: 95%;
+        padding: 25px;
+        display: none;
+    }
+
+    .product:hover div{
+        display: flex;
+    }
+
+    .transition{
+        transition: .25s ease;
+    }
+}
