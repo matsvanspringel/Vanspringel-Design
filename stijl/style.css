@@ -29,7 +29,7 @@ header{
 }
 
 #nav-list ul{
-    height: 90vh;
+    height: 80vh;
 }
 
 #nav-list li{
@@ -39,7 +39,7 @@ header{
 #nav-footer{
     text-align: center;
     color: white;
-    height: 10vh;
+    height: 20vh;
 }
 
 #dropdown{
