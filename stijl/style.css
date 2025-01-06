@@ -32,15 +32,6 @@ header{
     text-align: center;
 }
 
-#nav-footer{
-    text-align: center;
-}
-
-#nav-footer a:hover, #nav-footer a:active{
-    color: #fc9050;
-    text-decoration: unerline;
-}
-
 #dropdown{
     color: white;
     font-family: "Passion One", serif;
