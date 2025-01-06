@@ -24,12 +24,22 @@ header{
     top: 0;
     right: 0;
     height: 100vh;
-    max-width: 60vw;
+    max-width: 100vw;
     z-index: 2;
+}
+
+#nav-list ul{
+    height: 90vh;
 }
 
 #nav-list li{
     text-align: center;
+}
+
+#nav-footer{
+    text-align: center;
+    color: white;
+    height: 10vh;
 }
 
 #dropdown{
@@ -165,12 +175,12 @@ footer p a:hover, footer p a:focus{
     font-weight: bold;
 }
 
-#link{
+.link{
     color: #fc9050;
     transition: 1s;
 }
 
-#link:hover{
+.link:hover{
     text-decoration: underline;
 }
 
