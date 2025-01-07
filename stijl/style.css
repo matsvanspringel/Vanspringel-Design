@@ -19,7 +19,7 @@ header{
 
 #nav-list{
     display: none;
-    background-color: #345779;
+    background-color: #8fa7af;
     position: absolute;
     top: 0;
     right: 0;
@@ -34,6 +34,7 @@ header{
 
 #nav-list li{
     text-align: center;
+    font-size: 1.5rem;
 }
 
 #nav-footer{
@@ -55,6 +56,7 @@ header{
 #closeDropdown{
     color: white;
     text-align: right;
+    font-size: 1rem;
 }
 
 #arrowWrap{
@@ -194,8 +196,16 @@ footer p a:hover, footer p a:focus{
         display: block;
         position: inherit;
         right: inherit;
-        height: inherit;
         max-width: inherit;
+        height: inherit;
+    }
+
+    #nav-list ul{
+        height: inherit;
+    }
+
+    #nav-list li{
+        font-size: 1rem;
     }
 
     ul a{
