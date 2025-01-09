@@ -1,5 +1,5 @@
 html{
-    font-size: 14pt;
+    font-size: 12pt;
     scroll-behavior: smooth;
 }
 
@@ -192,6 +192,10 @@ footer p a:hover, footer p a:focus{
 }
 
 @media screen and (min-width: 768px){
+    html{
+        font-size: 14pt;
+    }
+
     #nav-list{
         background-color: transparent;
         display: block;
