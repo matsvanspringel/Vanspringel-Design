@@ -37,11 +37,37 @@ header{
     font-size: 1.5rem;
 }
 
+.nav-block{
+    background-color: transparent;
+    display: block;
+    position: inherit;
+    right: inherit;
+    max-width: inherit;
+    height: inherit;
+}
+
+.nav-block ul{
+    height: inherit;
+}
+
+.nav-block li{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.nav-block a{
+    background-color: #fc9050;
+}
+
+.nav-block a:hover, .nav-block a:focus{
+    background-color: #ffc775;
+}
+
 #nav-footer{
     text-align: center;
     background-color: black;
     color: white;
-    height: 10vh;
+    height: 15vh;
 }
 
 #dropdown{
@@ -216,7 +242,7 @@ footer p a:hover, footer p a:focus{
     ul a{
         background-color: #fc9050;
     }
-    
+
     ul a:hover, ul a:focus{
         background-color: #ffc775;
     }
