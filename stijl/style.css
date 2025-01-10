@@ -235,7 +235,7 @@ footer p a:hover, footer p a:focus{
         height: inherit;
     }
 
-    #nav-list li{
+    #nav-list li, .nav-block li{
         font-size: 1rem;
     }
 
