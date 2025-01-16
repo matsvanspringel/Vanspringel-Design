@@ -56,11 +56,11 @@ header{
 }
 
 .nav-block a{
-    background-color: #fc9050;
+    background-color: #345779;
 }
 
 .nav-block a:hover, .nav-block a:focus{
-    background-color: #ffc775;
+    background-color: #fc9050;
 }
 
 #nav-footer{
@@ -131,7 +131,7 @@ img{
 input, textarea{
     border: none;
     border-radius: 5px;
-    background-color: #8fa7af;
+    background-color: #333;
     color: white;
 }
 
@@ -145,7 +145,11 @@ textarea{
 }
 
 #productWrap, #contactWrap{
-    background-color: rgba(0,0,0,.15);
+    background-color: rgba(3,3,3,.15);
+}
+
+#url{
+    width: 100%;
 }
 
 footer{
@@ -161,11 +165,12 @@ footer p a{
     color: #fc9050;
     text-decoration: none;
     border-radius: 5px;
+    text-decoration: underline transparent;
 }
 
 footer p a:hover, footer p a:focus{
-    background-color: #fc9050;
-    color: white;
+    color: #ffc775;
+    text-decoration: underline;
 }
 
 .product img, .product div, iframe{
@@ -179,7 +184,8 @@ footer p a:hover, footer p a:focus{
 
 .project:hover{
     cursor: pointer;
-    background-color: #ffc775;
+    transform: scale(1.1);
+    background-color: rgba(0,0,0,.05);
 }
 
 .privacyList{
@@ -187,7 +193,9 @@ footer p a:hover, footer p a:focus{
 }
 
 .primary-button{
-    background-color: #fc9050;
+    background-image: linear-gradient(to right, #ffc775 50%, #fc9050 50%);
+    background-size: 200% 200%;
+    background-position: right;
     color: white;
     border: none;
     border-radius: 5px;
@@ -195,7 +203,7 @@ footer p a:hover, footer p a:focus{
 }
 
 .primary-button:hover{
-    background-color: #ffc775;
+    background-position: left;
     color: white;
 }
 
@@ -205,16 +213,19 @@ footer p a:hover, footer p a:focus{
 }
 
 .link{
-    color: #fc9050;
-    transition: 1s;
+    color: #345779;
+    text-decoration: underline transparent;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .link:hover{
+    color: #fc9050;
     text-decoration: underline;
 }
 
 .transition{
-    transition: .25s ease;
+    transition: .25s;
 }
 
 @media screen and (min-width: 768px){
@@ -240,11 +251,11 @@ footer p a:hover, footer p a:focus{
     }
 
     ul a{
-        background-color: #fc9050;
+        background: #345779;
     }
 
     ul a:hover, ul a:focus{
-        background-color: #ffc775;
+        background-color: #fc9050;
     }
 }
 
@@ -265,10 +276,15 @@ footer p a:hover, footer p a:focus{
         height: 100%;
         width: 95%;
         padding: 25px;
-        display: none;
+        display: flex;
+        opacity: 0;
     }
 
-    .product:hover div{
-        display: flex;
+    .product div:hover{
+        opacity: 1;
+    }
+
+    footer p:last-child{
+        text-align: end;
     }
 }

@@ -47,7 +47,7 @@
 
     <div id="arrowWrap" class="row align-items-center justify-content-center d-none d-md-block m-0">
         <p class="col-12">
-            <a href="#" id="arrowUp" class="p-2 transition"><i class="fa-solid fa-arrow-up"></i></a>
+            <a href="#" id="arrowUp" class="py-2 px-3 transition"><i class="fa-solid fa-arrow-up"></i></a>
         </p>
     </div>
 
@@ -81,7 +81,7 @@
                 <h2 class="col-12 my-3">Producten</h2>
                 <div class="product col-12 col-md-5 my-1">
                     <img class="col-12 d-none d-xl-block" src="afbeeldingen/Webdesign.jpg" alt="Webdesign">
-                    <div class="col-12 flex-column justify-content-center mt-3 mt-md-0">
+                    <div class="col-12 flex-column justify-content-center mt-3 mt-md-0 transition">
                         <h3>Webdesign</h3>
                         <p>
                             Bij Mava Design leveren we op maat gemaakte websites die perfect aansluiten bij jouw wensen en de identiteit van jouw bedrijf. Onze designs draaien om gebruiksvriendelijkheid, 
@@ -95,7 +95,7 @@
                 </div>
                 <div class="product col-12 col-md-5 my-1 offset-md-2">
                     <img class="col-12 d-none d-xl-block" src="afbeeldingen/Fotobewerking.jpg" alt="Fotobewerking">
-                    <div class="col-12 flex-column justify-content-center mt-3 mt-md-0">
+                    <div class="col-12 flex-column justify-content-center mt-3 mt-md-0 transition">
                         <h3>Fotobewerking</h3>
                         <p>
                             Mava Design biedt hoogwaardige fotobewerkingsdiensten om jouw beelden tot leven te brengen. Met behulp van Adobe Photoshop passen we verschillende technieken toe, 
@@ -115,9 +115,9 @@
             <h2 class="col-12 mb-5">Projecten</h2>
 
             <a href="project.html" class="col-md-6 col-lg-3 p-1">
-                <div class="project p-3 transition" onclick="change_project('wnkl')">
-                    <img src="afbeeldingen/projecten/wnkl_logo.png" alt="WNKL">
-                    <h3>WNKL</h3>
+                <div class="row align-items-center project p-3 transition" onclick="change_project('wnkl')">
+                    <img class="col-12" src="afbeeldingen/projecten/wnkl_logo.png" alt="WNKL">
+                    <h3 class="col-12 m-2">WNKL</h3>
                 </div> 
             </a>                   
         </div>
@@ -149,10 +149,12 @@
         </div>
     </div>
 
-    <footer class="row p-3 m-0">
+    <footer class="py-5 m-0">
         <div class="container">
-            <p class="col-12 p-1 my-1">&copy; MAVA-Design</p>
-            <p class="col-12 p-0 m-0"><a class="p-2 transition" href="https://www.instagram.com/mavadesign_be/"><i class="fa-brands fa-instagram"></i> Instagram</a> - <a class="p-2 transition" href="https://www.linkedin.com/in/mats-vanspringel/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a> - <a class="p-2 transition" href="privacy.html">Privacy&nbsp;voorwaarden</a></p>
+            <div class="row">
+                <p class="col-xl-4 m-0 p-2">&copy; MAVA-Design</p>
+                <p class="col-xl-8 m-0 p-0"><a class="p-2 transition" href="https://www.instagram.com/mavadesign.be/" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a> - <a class="p-2 transition" href="https://www.linkedin.com/in/mats-vanspringel/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a> - <a class="p-2 transition" href="privacy.html">Privacy&nbsp;voorwaarden</a></p>
+            </div>
         </div>
     </footer>
     

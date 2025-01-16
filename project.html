@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap-reboot.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap-grid.min.css" />
     <link rel="stylesheet" href="stijl/style.css">
-    <link rel="stylesheet" href="stijl/project.css">
 
     <title>MAVA-Design - Project</title>
 
@@ -28,30 +27,34 @@
         
                     <div class="col-12">
                         <ul class="row p-0 m-0 nav-block">
-                            <li class="col-8 col-md-4 d-flex p-0 offset-2 offset-md-4"><a class="col-12 p-2" href="index.html">Home</a></li>
+                            <li class="col-8 col-md-4 d-flex p-0 offset-2 offset-md-4"><a class="col-12 p-2 transition" href="index.html">Home</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </header>
     
-        <div class="container m-2 p-3">
-            <div class="row align-items-center">
+        <div class="container py-5">
+            <div class="row align-items-center projectInfo">
                 <h2 id="name" class="col-12"></h2>
-                <div class="col-md-6 order-2 order-md-1">
+                <div class="col-12 order-2 order-md-1">
                     <p id="description"></p>
                     <p id="site-beschrijving"></p>
-                    <p>De site kan je <a id="link" href="" class="accent link" target="_blank">hier</a> bezoeken.</p>
+                    <p>De site kan je <a id="link" href="" class="accent link transition" target="_blank">hier</a> bezoeken.</p>
                 </div>
-                <img src="" alt="Project image" id="url" class="col-md-6 order-1 order-md-2 p-5">
+                <div class="col-6 offset-3 order-1 order-md-2 py-5">
+                    <p><img src="" alt="Project image" id="url"></p>
+                </div>
             </div>
         </div>
     </div>
 
-    <footer class="row p-3 m-0">
+    <footer class="py-5 m-0">
         <div class="container">
-            <p class="col-12 p-1 my-1">&copy; MAVA-Design</p>
-            <p class="col-12 p-0 m-0"><a class="p-2 transition" href="https://www.instagram.com/mavadesign_be/"><i class="fa-brands fa-instagram"></i> Instagram</a> - <a class="p-2 transition" href="https://www.linkedin.com/in/mats-vanspringel/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a> - <a class="p-2 transition" href="privacy.html">Privacy&nbsp;voorwaarden</a></p>
+            <div class="row">
+                <p class="col-xl-4 m-0 p-2">&copy; MAVA-Design</p>
+                <p class="col-xl-8 m-0 p-0"><a class="p-2 transition" href="https://www.instagram.com/mavadesign.be/" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a> - <a class="p-2 transition" href="https://www.linkedin.com/in/mats-vanspringel/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a> - <a class="p-2 transition" href="privacy.html">Privacy&nbsp;voorwaarden</a></p>
+            </div>
         </div>
     </footer>
 </body>
