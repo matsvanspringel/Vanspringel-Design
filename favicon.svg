@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27.12 29.12">
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.55 27.54">
   <defs>
     <style>
       .cls-1 {
@@ -7,16 +7,16 @@
       }
 
       .cls-2 {
-        fill: #557b9a;
+        fill: #f7931e;
       }
 
       .cls-3 {
-        fill: #f7931e;
+        fill: #fbb03b;
       }
     </style>
   </defs>
-  <polygon class="cls-3" points="2.12 21 8.12 27 24.12 9 18.12 3 2.12 21"/>
-  <path class="cls-2" d="M2.12,21l6,6s-4,4-7,1,1-7,1-7"/>
-  <polygon points="18.12 3 19.12 2 27.12 0 25.12 8 24.12 9 18.12 3"/>
-  <polygon class="cls-1" points="27.12 0 21.99 1.28 22.24 2.85 24.12 3 24.12 4.62 25.85 5.07 27.12 0"/>
+  <polygon class="cls-2" points="4.11 21.23 8.66 25.78 24.66 7.78 20.16 3.28 4.11 21.23"/>
+  <path class="cls-3" d="M4.11,21.23l4.55,4.55s-2.82,3.45-5.56.68c-2.1-2.12,1-5.23,1-5.23Z"/>
+  <polygon points="20.16 3.28 24.66 7.78 25.66 6.8 27.63 .07 21.16 2.3 20.16 3.28"/>
+  <polygon class="cls-1" points="27.37 .32 26.29 3.93 25.89 3.04 24.74 3.09 24.76 1.96 23.86 1.59 27.37 .32"/>
 </svg>
