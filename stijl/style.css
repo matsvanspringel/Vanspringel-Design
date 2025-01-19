@@ -98,12 +98,14 @@ header{
 
 #arrowUp{
     color: white;
-    background-color: rgba(0,0,0,.75);
     border-radius: 5px;
+    background-image: linear-gradient(#333 50%, #888 50%);
+    background-size: 100% 200%;
+    background-position: top;
 }
 
 #arrowUp:hover{
-    background-color: rgba(0,0,0,.5);
+    background-position: bottom;
 }
 
 h1, h2, h3{
