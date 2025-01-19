@@ -70,6 +70,10 @@ header{
     height: 20vh;
 }
 
+#nav-footer i{
+    color: #fc9050;
+}
+
 #dropdown{
     color: white;
     font-family: "Passion One", serif;
