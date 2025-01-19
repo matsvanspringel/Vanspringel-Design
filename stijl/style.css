@@ -263,6 +263,10 @@ footer p a:hover, footer p a:focus{
     ul a:hover, ul a:focus{
         background-color: #fc9050;
     }
+
+    footer p{
+        font-size: 1rem;
+    }
 }
 
 @media screen and (min-width: 1200px){
