@@ -15,7 +15,7 @@ body{
 
 header{
     background-color: #8fa7af;
-    min-height: 15vh;
+    height: 25vh;
 }
 
 #nav-list{
@@ -147,19 +147,8 @@ textarea{
     max-height: 150px;
 }
 
-#hero{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../afbeeldingen/hero_image.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-#heroWrap{
-    color: white;
-    min-height: 85vh;
-}
-
-#mainWrap{
-    min-height: 100vh;
+#overMij{
+    height: 75vh;
 }
 
 #productWrap, #contactWrap{
@@ -195,15 +184,31 @@ footer p a:hover, footer p a:focus{
     border-radius: 5px;
 }
 
-.project{
-    text-align: center;
+.referentieWrap{
+    position: relative;
+}
+
+.referentie{
+    background-color: rgba(0,0,0,.05);
     border-radius: 5px;
 }
 
-.project:hover{
+#left, #right{
+    position: absolute;
+    top: 45%;
+}
+
+#left:hover, #right:hover{
     cursor: pointer;
-    transform: scale(1.1);
-    background-color: rgba(0,0,0,.05);
+    transform: scale(1.25);
+}
+
+#left{
+    left: 10px;
+}
+
+#right{
+    right: 10px;
 }
 
 .privacyList{
