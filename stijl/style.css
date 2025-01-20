@@ -15,7 +15,6 @@ body{
 
 header{
     background-color: #8fa7af;
-    height: 25vh;
 }
 
 #nav-list{
@@ -147,10 +146,6 @@ textarea{
     max-height: 150px;
 }
 
-#overMij{
-    height: 75vh;
-}
-
 #productWrap, #contactWrap{
     background-color: rgba(3,3,3,.15);
 }
@@ -186,11 +181,6 @@ footer p a:hover, footer p a:focus{
 
 .referentieWrap{
     position: relative;
-}
-
-.referentie{
-    background-color: rgba(0,0,0,.05);
-    border-radius: 5px;
 }
 
 #left, #right{
