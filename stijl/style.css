@@ -15,6 +15,7 @@ body{
 
 header{
     background-color: #8fa7af;
+    min-height: 15vh;
 }
 
 #nav-list{
@@ -154,7 +155,7 @@ textarea{
 
 #heroWrap{
     color: white;
-    min-height: 77.5vh;
+    min-height: 85vh;
 }
 
 #mainWrap{
