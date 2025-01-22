@@ -141,9 +141,13 @@ input, textarea{
     color: white;
 }
 
+#checkbox input{
+    height: 15px;
+    width: 15px;
+}
+
 textarea{
     min-height: 150px;
-    max-height: 150px;
 }
 
 #productWrap, #contactWrap{
@@ -167,12 +171,10 @@ footer p a{
     color: #fc9050;
     text-decoration: none;
     border-radius: 5px;
-    text-decoration: underline transparent;
 }
 
 footer p a:hover, footer p a:focus{
     color: #ffc775;
-    text-decoration: underline;
 }
 
 .product img, .product div, iframe{
@@ -227,14 +229,11 @@ footer p a:hover, footer p a:focus{
 
 .link{
     color: #345779;
-    text-decoration: underline transparent;
-    text-transform: uppercase;
     font-weight: bold;
 }
 
 .link:hover{
-    color: #fc9050;
-    text-decoration: underline;
+    color: #557b9a; 
 }
 
 .transition{
@@ -277,6 +276,10 @@ footer p a:hover, footer p a:focus{
 }
 
 @media screen and (min-width: 1200px){
+    header{
+        height: 22.5vh;
+    }
+
     .product{
         position: relative;
     }
@@ -299,6 +302,10 @@ footer p a:hover, footer p a:focus{
 
     .product div:hover{
         opacity: 1;
+    }
+
+    #overMij{
+        min-height: 77.5vh;
     }
 
     footer p:last-child{

@@ -128,22 +128,29 @@
         
     <div id="contactWrap">
         <div class="container">
-            <div id="contact" class="row py-5 align-items-center">
+            <div id="contact" class="row py-5 px-3 align-items-center">
                 <div class="col-xl-5 d-none d-xl-block my-3">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2500.591503901025!2d5.230529476803681!3d51.189751571742846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c132ff1254b64d%3A0x2eeae6efdf25f70f!2sForcitestraat%2033_1%2C%202490%20Balen!5e0!3m2!1snl!2sbe!4v1733677751961!5m2!1snl!2sbe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
     
                 <div class="col-12 col-xl-5 offset-xl-2">
                     <h2 class="mt-3">Contact</h2>
-                    <form action="https://formspree.io/f/xkggewqb" method="post">
-                        <label for="name" class="col-12">Naam:</label>
-                        <input type="text" name="naam" class="col-12 p-1" required placeholder="Naam">
+                    <form class="row align-items-center justify-content-start" action="https://formspree.io/f/xkggewqb" method="post">
+                        <label for="name" class="col-12 p-1">Naam:
+                            <input type="text" name="naam" class="col-12 p-1 mb-2" required placeholder="Naam">
+                        </label>
                     
-                        <label for="email" class="col-12">Email:</label>
-                        <input type="email" name="email" class="col-12 p-1" required placeholder="voorbeeld@gmail.com">
+                        <label for="email" class="col-12 p-1">Email:
+                            <input type="email" name="email" class="col-12 p-1 mb-2" required placeholder="voorbeeld@gmail.com">
+                        </label>
                     
-                        <label for="message" class="col-12">Bericht:</label>
-                        <textarea name="message" id="bericht" class="col-12 p-1" required placeholder="Bericht"></textarea>
+                        <label for="message" class="col-12 p-1">Bericht:
+                            <textarea name="message" id="bericht" class="col-12 p-1 mb-2" required placeholder="Bericht"></textarea>
+                        </label>
+
+                        <div id="checkboxWrap" class="col-12 mb-2 p-1">
+                            <label id="checkbox" for="checkbox"><input type="checkbox" required> Ik ga akkoord met de <a href="privacy.html" class="link transition">Privacy&nbsp;beleid</a></label>
+                        </div>
                     
                         <button type="submit" class="col-4 primary-button offset-4 transition">Verstuur</button>
                     </form>
@@ -155,7 +162,7 @@
     <footer class="py-5 m-0">
         <div class="container">
             <div class="row">
-                <p class="col-xl-4 m-0 p-2">&copy; Vanspringel Design  - <a class="transition" href="privacy.html">Privacy&nbsp;voorwaarden</a></p>
+                <p class="col-xl-4 m-0 p-2">&copy; Vanspringel Design  - <a class="transition" href="privacy.html">Privacy&nbsp;beleid</a></p>
                 <p class="col-xl-8 m-0 p-0"><a class="p-2 transition" href="https://www.instagram.com/mavadesign.be/" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a> - <a class="p-2 transition" href="https://www.linkedin.com/in/mats-vanspringel/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></p>
             </div>
         </div>
