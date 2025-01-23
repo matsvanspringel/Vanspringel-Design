@@ -10,3 +10,8 @@ function dropdown(bool){
         }
     }
 }
+
+function clear_form(){
+    form = document.getElementById('contactForm');
+    form.reset();
+}

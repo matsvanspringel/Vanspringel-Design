@@ -14,7 +14,7 @@ body{
 }
 
 #main-404{
-    min-height: 100vh;
+    min-height: 77.5vh;
     text-align: center;
 }
 
@@ -238,6 +238,7 @@ footer p a:hover, footer p a:focus{
 
 .link{
     color: #345779;
+    font-size: 1.2rem;
     font-weight: bold;
 }
 
@@ -281,6 +282,10 @@ footer p a:hover, footer p a:focus{
 
     footer p{
         font-size: 1rem;
+    }
+
+    .link{
+        font-size: 1.1rem;
     }
 }
 

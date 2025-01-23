@@ -17,7 +17,7 @@
 
     <script src="script.js"></script>
 </head>
-<body id="body">
+<body id="body" onload="clear_form()">
 
     <header class="p-1 m-0">
         <div class="container">
@@ -38,7 +38,7 @@
                     </ul>
 
                     <div id="nav-footer" class="row mt-1 d-md-none">
-                        <p class="col-12 pt-3"><a href="https://www.instagram.com/mavadesign_be/" class="link p-3"><i class="fa-brands fa-instagram fa-xl"></i></a> - <a href="#linkedIn" class="link p-3"><i class="fa-brands fa-linkedin fa-xl"></i></a></p>
+                        <p class="col-12 pt-3"><a href="https://www.instagram.com/vanspringel_design.be/" class="link p-3"><i class="fa-brands fa-instagram fa-xl"></i></a> - <a href="#linkedIn" class="link p-3"><i class="fa-brands fa-linkedin fa-xl"></i></a></p>
                     </div>
                 </div>
             </div>
@@ -53,9 +53,9 @@
 
     <div id="main" class="container">
         <div id="overMij" class="row py-3 align-items-center">
-            <img class="col-md-6 col-lg-4 order-lg-2 order-2 order-md-1" src="afbeeldingen/overMij.jpg" alt="Foto Mats Vanspringel">
+            <img class="col-md-6 col-lg-4 order-1 order-md-2" src="afbeeldingen/overMij.jpg" alt="Foto Mats Vanspringel">
         
-            <div class="col-md-6 col-lg-8 order-lg-1 order-1 order-md-2">
+            <div class="col-md-6 col-lg-8 order-2 order-md-1">
                 <h2 class="col-12 mt-3">Over mij</h2>
                     
                 <p class="p-1">
@@ -134,26 +134,31 @@
                 </div>
     
                 <div class="col-12 col-xl-5 offset-xl-2">
-                    <h2 class="mt-3">Contact</h2>
-                    <form class="row align-items-center justify-content-start" action="https://formspree.io/f/xkggewqb" method="post">
-                        <label for="name" class="col-12 p-1">Naam:
-                            <input type="text" name="naam" class="col-12 p-1 mb-2" required placeholder="Naam">
-                        </label>
-                    
-                        <label for="email" class="col-12 p-1">Email:
-                            <input type="email" name="email" class="col-12 p-1 mb-2" required placeholder="voorbeeld@gmail.com">
-                        </label>
-                    
-                        <label for="message" class="col-12 p-1">Bericht:
-                            <textarea name="message" id="bericht" class="col-12 p-1 mb-2" required placeholder="Bericht"></textarea>
-                        </label>
+                    <div class="row">
+                        <h2 class="col-12 p-1">Contact</h2>
 
-                        <div id="checkboxWrap" class="col-12 mb-2 p-1">
-                            <label id="checkbox" for="checkbox"><input type="checkbox" required> Ik ga akkoord met de <a href="privacy.html" class="link transition">Privacy&nbsp;beleid</a></label>
+                        <div class="col-12">
+                            <form id="contactForm" class="row align-items-center justify-content-start" action="https://formspree.io/f/xkggewqb" method="post">
+                                <label for="name" class="col-12 p-1">Naam:
+                                    <input type="text" id="naam" name="naam" class="col-12 p-1 mb-2" required placeholder="Naam">
+                                </label>
+                            
+                                <label for="email" class="col-12 p-1">Email:
+                                    <input type="email" id="email" name="email" class="col-12 p-1 mb-2" required placeholder="voorbeeld@gmail.com">
+                                </label>
+                            
+                                <label for="message" class="col-12 p-1">Bericht:
+                                    <textarea name="bericht" id="bericht" class="col-12 p-1 mb-2" required placeholder="Bericht"></textarea>
+                                </label>
+    
+                                <div id="checkboxWrap" class="col-12 mb-2 p-1">
+                                    <label id="checkbox" for="checkbox"><input type="checkbox" required> Ik ga akkoord met het <a href="privacy.html" class="link transition">privacy&nbsp;beleid</a></label>
+                                </div>
+                            
+                                <button type="submit" class="col-4 primary-button offset-4 transition">Verstuur</button>
+                            </form>
                         </div>
-                    
-                        <button type="submit" class="col-4 primary-button offset-4 transition">Verstuur</button>
-                    </form>
+                    </div>
                 </div>
             </div>
         </div>
@@ -163,7 +168,7 @@
         <div class="container">
             <div class="row">
                 <p class="col-xl-4 m-0 p-2">&copy; Vanspringel Design  - <a class="transition" href="privacy.html">Privacy&nbsp;beleid</a></p>
-                <p class="col-xl-8 m-0 p-0"><a class="p-2 transition" href="https://www.instagram.com/mavadesign.be/" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a> - <a class="p-2 transition" href="https://www.linkedin.com/in/mats-vanspringel/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></p>
+                <p class="col-xl-8 m-0 p-0"><a class="p-2 transition" href="https://www.instagram.com/vanspringel_design.be/" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a> - <a class="p-2 transition" href="https://www.linkedin.com/in/mats-vanspringel/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></p>
             </div>
         </div>
     </footer>
