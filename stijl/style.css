@@ -190,6 +190,7 @@ footer p a{
 
 footer p a:hover, footer p a:focus{
     color: #ffc775;
+    text-decoration: none;
 }
 
 .product img, .product div, iframe{
@@ -269,11 +270,13 @@ footer p a:hover, footer p a:focus{
 
     #nav-list{
         background-color: transparent;
-        display: block;
+        display: flex;
         position: inherit;
-        right: inherit;
-        max-width: inherit;
+        top: inherit;
+        left: inherit;
+        width: inherit;
         height: inherit;
+        transform: inherit;
     }
 
     #nav-list ul{
@@ -290,6 +293,7 @@ footer p a:hover, footer p a:focus{
 
     ul a:hover, ul a:focus{
         background-color: #fc9050;
+        text-decoration: none;
     }
 
     footer p{
@@ -321,12 +325,10 @@ footer p a:hover, footer p a:focus{
     .product div{
         position: absolute;
         top: 0;
-        background-color: rgba(0,0,0,.5);
-        color: white;
-        height: 100%;
         width: 95%;
-        padding: 25px;
-        display: flex;
+        height: 100%;
+        color: white;
+        background-color: rgba(0,0,0,.25);
         opacity: 0;
     }
 
