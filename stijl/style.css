@@ -14,11 +14,6 @@ body{
     z-index: 1;
 }
 
-#main-404{
-    min-height: 77.5vh;
-    text-align: center;
-}
-
 header{
     background-color: #8fa7af;
 }
@@ -129,10 +124,6 @@ h1{
     color: white;
 }
 
-#main-404 h1{
-    color: black;
-}
-
 a{
     text-decoration: none;
     color: white;
@@ -154,14 +145,14 @@ input, textarea{
     color: white;
 }
 
+textarea{
+    height: 150px;
+}
+
 #checkbox input{
     height: 15px;
     width: 15px;
     accent-color: #fc9050;
-}
-
-textarea{
-    min-height: 150px;
 }
 
 #productWrap, #contactWrap{
@@ -257,6 +248,14 @@ footer p a:hover, footer p a:focus{
 .link:hover{
     color: #557b9a; 
     text-decoration: none;
+}
+
+.carousel-caption a{
+    color: #fc9050;
+}
+
+.carousel-caption a:hover{
+    color: #ffc775;
 }
 
 .transition{
