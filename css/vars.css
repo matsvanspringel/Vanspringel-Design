@@ -1,0 +1,31 @@
+:root{
+    --font-family-main: "Work Sans", sans-serif;
+    --font-family-heading: "Bungee", sans-serif;
+
+    --orange: #fc9050;
+    --soft-orange: rgba(252, 144, 80, .5);
+    --yellow: #ffc775;
+    --black: #000;
+    --blue-dark: #345779;
+    --blue-normal: #557b9a;
+    --blue-light: #8fa7af;
+
+    --bs-body-bg: #E5E4E2;
+    --footer-bg: #555555;
+    
+    .btn-primary{
+        --bs-btn-bg: var(--orange);
+        --bs-btn-border-color: transparent;
+        --bs-btn-hover-bg: var(--yellow);
+        --bs-btn-hover-border-color: transparent;
+        --bs-btn-active-border-color: var(--orange)
+    }
+
+    .btn-secondary{
+        --bs-btn-bg: var(--yellow);
+        --bs-btn-border-color: transparent;
+        --bs-btn-hover-bg: var(--yellow);
+        --bs-btn-hover-border-color: transparent;
+        --bs-btn-active-border-color: var(--orange)
+    }
+}

@@ -1,0 +1,162 @@
+body{
+    font-family: var(--font-family-main);
+}
+
+nav div{
+    min-height: 20vh;
+}
+
+.nav-link{
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.15rem;
+
+    &:hover{
+        color: var(--yellow);
+    }
+}
+
+h1, h2, h3{
+    font-family: var(--font-family-heading);
+}
+
+h5{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+iframe{
+    height: 50vh;
+}
+
+hr{
+    border-top: 2px solid black;
+}
+
+footer{
+    background-color: var(--footer-bg);
+    color: white;
+
+    a{
+        color: white;
+        text-decoration: none;
+
+        &:hover, &:focus{
+            color: var(--yellow);
+        }
+    }
+    
+    hr{
+        border-top: 2px solid white;
+    }
+}
+
+#homeWrap, .bg-image{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+#homeWrap{
+    background-image: linear-gradient(rgba(0,0,0,.75), rgba(0,0,0,.25)), url("../assets/hero.jpg");
+
+    a{
+        font-weight: bold;
+        font-size: 1.1rem;
+    }
+}
+
+#homeWrap > div > div{
+    min-height: 80vh;
+}
+
+#overMij img{
+    src: url("../assets/overMij_small.jpg");
+}
+
+.form-control, .form-select{
+    background-color: #fcfcfc;
+    color: black;
+
+    &:focus{
+        box-shadow: 0 0 0 .25rem var(--soft-orange);
+        border-color: var(--orange);
+    }
+
+    &:active, &:focus{
+        background-color: #fcfcfc;
+    }
+}
+
+.form-check-input {
+    background-color: #fcfcfc;
+
+    &:checked{
+        background-color: var(--blue-light);
+        border-color: var(--blue-light);
+    }
+
+    &:focus{
+        box-shadow: 0 0 0 .25rem var(--soft-orange);
+        border-color: var(--orange);
+    }
+}
+
+.navbar-toggler{
+    background-color: white;
+}
+
+.btn-primary{
+    background-image: linear-gradient(to right, var(--bs-btn-hover-bg) 50%, var(--bs-btn-bg) 50%);
+    background-size: 202% 100%;
+    background-position: right;
+    border: none;
+
+    &:hover{
+        background-position: left;
+    }
+}
+
+.primary-link{
+    color: var(--blue-dark);
+    text-decoration: none;
+    font-weight: bold;
+
+    &:hover{
+        color: var(--orange);
+    }
+}
+
+.bg-image{
+    background-image: linear-gradient(rgba(229,228,226,.95), rgba(229,228,226,.95)), url("../assets/hero.jpg");
+}
+
+.h-full{
+    min-height: 100vh;
+}
+
+.t-short{
+    transition: .25s;
+}
+
+@media screen and (min-width: 768px){
+    #homeWrap, .bg-image{
+        background-position: inherit;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .h-lg-full{
+        min-height: 100vh;
+    }
+
+    #overMij img{
+        content: url("../assets/overMij.JPG");
+    }
+}
